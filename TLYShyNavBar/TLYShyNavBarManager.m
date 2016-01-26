@@ -130,7 +130,7 @@ static void * const kTLYShyNavBarManagerKVOContext = (void*)&kTLYShyNavBarManage
     UIView *navbar = viewController.navigationController.navigationBar;
     NSAssert(navbar != nil, @"Please make sure the viewController is already attached to a navigation controller.");
 
-    viewController.extendedLayoutIncludesOpaqueBars = YES;
+    //viewController.extendedLayoutIncludesOpaqueBars = YES;
 
     [self.extensionViewContainer removeFromSuperview];
     [self.viewController.view addSubview:self.extensionViewContainer];
